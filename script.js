@@ -2,7 +2,6 @@ function scrollToSection(id){
   document.getElementById(id).scrollIntoView({behavior:'smooth'});
 }
 
-/* FADE IN ON SCROLL */
 const sections = document.querySelectorAll("section");
 
 window.addEventListener("scroll", () => {
