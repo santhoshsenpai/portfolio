@@ -10,7 +10,7 @@ body{
   color:#fff;
 }
 
-/* NAVBAR */
+
 nav{
   display:flex;
   justify-content:space-between;
@@ -207,7 +207,6 @@ section.show{
   gap:20px;
 }
 
-/* Project Cards */
 .projects-container {
   display: flex;
   gap: 20px;
@@ -273,7 +272,6 @@ section.show{
   margin-top:20px;
 }
 
-/* CONTACT */
 .contact-wrapper {
   max-width: 1000px;
   margin: 40px auto;
