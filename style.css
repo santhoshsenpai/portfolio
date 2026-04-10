@@ -343,7 +343,7 @@ section.show{
   transform: rotateY(360deg);
 }
 
-/* RESPONSIVE */
+
 @media(max-width:768px){
 
   .about-card{
