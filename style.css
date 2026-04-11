@@ -362,3 +362,101 @@ section.show{
   }
 
 }
+
+@media (max-width: 1024px){
+
+  nav{
+    padding:20px 30px;
+  }
+
+  .hero{
+    padding:40px 30px;
+    gap:40px;
+  }
+
+  .hero-text h1{
+    font-size:40px;
+  }
+
+  .hero-img{
+    flex:0 0 260px;
+    padding-right:0;
+  }
+
+  .hero-img img{
+    width:260px;
+    height:260px;
+  }
+}
+
+@media (max-width: 768px){
+
+  nav{
+    flex-direction:column;
+    gap:15px;
+    padding:20px;
+  }
+
+  .nav-links{
+    gap:15px;
+    flex-wrap:wrap;
+    justify-content:center;
+  }
+
+  .hero{
+    flex-direction:column;
+    text-align:center;
+    padding:40px 20px;
+    min-height:auto;
+  }
+
+  .hero-text{
+    max-width:100%;
+  }
+
+  .hero-text h1{
+    font-size:32px;
+  }
+
+  .hero-buttons{
+    justify-content:center;
+    flex-wrap:wrap;
+  }
+
+  .hero-img{
+    justify-content:center;
+    padding:0;
+  }
+
+  .hero-img img{
+    width:220px;
+    height:220px;
+  }
+
+  section:not(.hero){
+    padding:60px 20px;
+  }
+}
+
+@media (max-width: 480px){
+
+  .hero-text h1{
+    font-size:26px;
+  }
+
+  .btn{
+    min-width:140px;
+    height:45px;
+    font-size:14px;
+  }
+
+  .hero-img img{
+    width:180px;
+    height:180px;
+  }
+
+  .project-card{
+    width:100%;
+  }
+
+}
